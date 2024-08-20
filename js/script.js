@@ -25,7 +25,7 @@ const kirimPesan = () => {
 }
 
 const postData = async (kueri) => {
-  let url = "http://localhost:3000/pesan";
+  let url = "https://roomy-carnelian-shop.glitch.me/pesan";
   let opt = {
     method: "POST",
     body: JSON.stringify({ pesan: pesan, confess: kueri }),
